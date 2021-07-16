@@ -1,0 +1,25 @@
+{
+  "name": "0x00-ES6_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "scripts-dev": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app start",
+    "dev": "app dev",
+    "build": "app build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

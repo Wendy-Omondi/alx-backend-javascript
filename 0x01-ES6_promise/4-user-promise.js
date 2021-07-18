@@ -1,3 +1,4 @@
+/* eslint-disable */
 function signUpUser(firstName, lastName) {
   let a = new Promise((resolve) => {
     resolve(

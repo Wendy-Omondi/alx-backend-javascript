@@ -1,3 +1,4 @@
+/* eslint-disable */
 function getResponseFromAPI() {
   let a = new Promise((resolve) => {
     resolve();

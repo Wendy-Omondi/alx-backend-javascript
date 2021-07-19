@@ -1,9 +1,11 @@
 class Airport {
   constructor(name, code) {
-    this._code = code;
     this._name = name;
+    this._code = code;
   }
-    return `${this._code}`;
+
+  get [Symbol.toStringTag]() {
+    return this._code;
   }
 }
 export default Airport;
